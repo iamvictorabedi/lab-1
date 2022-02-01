@@ -2,4 +2,4 @@
 Lab One Exercise 
 
 
-git checkout -b error
+git checkout -b main
