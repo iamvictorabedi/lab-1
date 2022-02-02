@@ -142,6 +142,31 @@ input[type="text"] * {
 	margin-bottom: 20px;
 }
 
+.panelab {
+	border-radius: 30px;
+	padding: 60px 40px;
+	margin-bottom: 20px;
+}
+
+.panelab1{
+	border-radius: 30px;
+	padding: 60px 40px;
+	margin-bottom: 20px;
+}
+
+.panelsab {
+	width: 100%;
+}
+
+.panelsab img {
+	text-align: center;
+	width: 50%;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 50%;
+}
+
 .panel h5 {
 	width: 85%;
 }
@@ -295,10 +320,28 @@ input[type="text"] * {
 		width: 80%;
 		flex-wrap: wrap;
 	}
+
+	.panelsab {
+		display: flex;
+		flex-wrap: wrap;
+		column-gap: 20px;
+	}
+
 	.panel {
 		width: 49%;
 		box-sizing: border-box;
 	}
+
+	.panelab {
+		width: 49%;
+		box-sizing: border-box;
+		float: left;
+	}
+
+	.panelab1 {
+		box-sizing: border-box;
+	}
+
 	.mobile-only {
 		display: none;
 	}
